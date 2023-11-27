@@ -1,1 +1,72 @@
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Ubuntu", sans-serif;
+}
 
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-size: 1.6rem;
+  color: #a1aeb7;
+}
+
+/* Navbar mobile*/
+
+header {
+  background-color: #000000;
+
+  padding: 0 1rem 0 1rem;
+  color: #ffffff;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.show-items {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #505d68;
+  align-items: flex-start;
+  padding: 8px;
+}
+
+.nav-desktop {
+  display: none;
+}
+
+header ul {
+  display: none;
+  list-style-type: none;
+
+  font-size: 1.2rem;
+}
+
+header a {
+  text-decoration: none;
+  color: #505d68;
+}
+
+header img {
+  width: 15rem;
+}
+
+.hamburger-menu {
+  display: flex;
+  flex-direction: column;
+}
+
+a.toggle {
+  align-self: flex-end;
+  padding-top: 1.5rem;
+}
