@@ -230,6 +230,29 @@ input:checked ~ .sub-menu {
   border-radius: 3rem;
 }
 
+/* resource */
+
+.resource {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 5rem 8.5rem 10rem 8.5rem;
+}
+
+.resource .img {
+  width: 150px;
+}
+
+.logo-organizers {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 2rem;
+  width: 100%;
+  margin: 3rem 0;
+}
+
 /* Desktop */
 @media only screen and (min-width: 1024px) {
 }
