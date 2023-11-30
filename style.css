@@ -144,4 +144,47 @@ body {
     display: flex;
     justify-content: space-between;
   }
+
+  /* hero */
+  .main-hero {
+    justify-content: center;
+    align-items: flex-start;
+    background-image: url(images/background-header.jpeg);
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    padding-right: 40px;
+    padding-left: 40px;
+    filter: opacity(100%);
+    text-align: left;
+    position: relative;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+  }
+  .main-hero h1 {
+    font-size: 2.8rem;
+  }
+
+  .main-hero p {
+    font-size: 1.4rem;
+    margin-top: 3rem;
+    width: 100%;
+    line-height: 2.8rem;
+  }
+
+  .main-hero a {
+    padding: 1.8rem 3rem;
+    font-weight: 500;
+    font-size: 1.4rem;
+    color: #ffffff;
+    border-radius: 9rem;
+    background-color: #421882;
+    margin-top: 3.5rem;
+  }
+
+  .main-hero a:hover {
+    animation: pulse ease-in 1s;
+  }
 }
