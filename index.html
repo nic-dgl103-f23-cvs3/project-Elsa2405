@@ -32,7 +32,16 @@
     <header class="sticky">
       <div class="header-container">
         <div class="logo">
-          <img src="images/header-logo.png" alt="header logo" />
+          <a href="/index.html">
+            <img
+              src="images/header-logo.png"
+              class="bricks-site-logo css-filter perfmatters-lazy entered pmloaded"
+              alt="Bricks Templates"
+              width="200"
+              decoding="async"
+              data-ll-status="loaded"
+            />
+          </a>
         </div>
         <nav class="nav-menu-wrapper">
           <ul class="main-menu">
@@ -54,7 +63,7 @@
             </li>
             <li class="main-menu-item"><a href="#">Pricing</a></li>
             <li class="main-menu-item">
-              <a href="/"> About us </a>
+              <a href="/about.html"> About us </a>
             </li>
             <li class="main-menu-item"><a href="#">Blog</a></li>
             <li class="main-menu-item"><a href="#">Login</a></li>
@@ -101,7 +110,7 @@
             </li>
             <li class="main-menu-item"><a href="#">Pricing</a></li>
             <li class="main-menu-item">
-              <a href="/"> About us </a>
+              <a href="/about.html"> About us </a>
             </li>
             <li class="main-menu-item"><a href="#">Blog</a></li>
             <li class="main-menu-item"><a href="#">Login</a></li>
@@ -110,14 +119,9 @@
             </li>
           </ul>
         </nav>
+        <label for="check-menu" class="overlay" hidden></label>
       </div>
     </header>
-    <script>
-      function showNav() {
-        var element = document.getElementById("nav-items");
-        element.classList.toggle("show-items");
-      }
-    </script>
 
     <main>
       <section class="main-hero">
@@ -331,4 +335,10 @@
       </div>
     </footer>
   </body>
+  <script>
+    window.addEventListener("scroll", function () {
+      var header = document.querySelector(".sticky");
+      header.classList.toggle("nav-scroll", window.scrollY > 0);
+    });
+  </script>
 </html>
