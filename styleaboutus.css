@@ -165,10 +165,13 @@ tfoot {
   background-color: #c5c5c5;
 }
 
+.who-we-are h2 {
+  font-size: 4rem;
+}
+
 h2 {
   display: flex;
   margin-bottom: 11px;
-  /* font-size: 4rem; */
 }
 
 section.who-we-are {
@@ -176,8 +179,13 @@ section.who-we-are {
 }
 
 p {
-  font-size: 1.4rem;
+  font-size: 2.4rem;
   margin-bottom: 30px;
+}
+
+.footer-logo p,
+.grid-member p {
+  font-size: 1.4rem;
 }
 
 h1.title {
