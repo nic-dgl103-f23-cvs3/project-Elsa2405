@@ -296,6 +296,79 @@ input:checked ~ .sub-menu {
   font-weight: 300;
 }
 
+/* Contact */
+
+.contact {
+  background-image: url(https://www.indinero.com/wp-content/uploads/2023/02/jud-mackrill-Of_m3hMsoAA-unsplash-1-min.jpg);
+  background-size: cover;
+  background-position: center center;
+  width: 80%;
+  filter: opacity(100%);
+  text-align: left;
+  position: relative;
+  justify-content: center;
+  align-self: stretch !important;
+  width: 100%;
+  padding: 10rem;
+  margin-bottom: 5rem;
+}
+/* 
+.contact ::before {
+  background-image: linear-gradient(
+    rgba(246, 213, 93, 0.7) 7%,
+    rgba(246, 213, 93, 0.7) 7%
+  );
+  position: absolute;
+  content: "";
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  pointer-events: none;
+} */
+
+:where(.contact > *) {
+  position: relative;
+}
+
+.contact .flex-container h2 {
+  color: #333;
+  font-size: 3rem;
+}
+
+.contact .flex-container form {
+  margin-top: 2rem;
+}
+
+.contact .flex-container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.contact .flex-container input,
+.contact .flex-container textarea {
+  width: 100%;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.contact .flex-container button {
+  background-color: #3498db;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+}
+
+.contact .flex-container button:hover {
+  background-color: #2980b9;
+}
+
 /* Desktop */
 @media only screen and (min-width: 1024px) {
 }
