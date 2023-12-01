@@ -15,3 +15,171 @@
   flex-direction: column;
   color: white;
 }
+
+.grid-member img {
+  width: 100%;
+  height: 600px;
+  object-fit: cover;
+  align-self: center;
+}
+
+li {
+  list-style: none;
+}
+
+.grid-list {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 2rem;
+}
+
+table {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100%;
+  /*   border-collapse: collapse; */
+  /*   border: 1px solid red; */
+}
+
+caption {
+  font-size: 2em;
+  font-weight: bold;
+  text-align: left;
+  padding: 10px 0;
+}
+
+td,
+th {
+  /*   border: 1px solid #ddd; */
+  padding: 8px;
+}
+
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #6125ed;
+  /* color: white; */
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tbody tr:hover {
+  background-color: #ddd;
+}
+
+td.merge {
+  text-align: center;
+  font-style: italic;
+}
+
+tfoot {
+  font-size: 0.8em;
+  font-style: italic;
+  text-align: center;
+  background-color: #c5c5c5;
+}
+
+.about-hero-main-hero {
+  justify-content: center;
+  align-items: flex-start;
+  background-image: url(images/about-us-hero-cover.jpeg);
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  padding-right: 4rem;
+  padding-left: 4rem;
+  filter: opacity(100%);
+  text-align: left;
+  position: relative;
+  height: 80rem;
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+
+.grid-member img {
+  width: 100%;
+  height: 600px;
+  object-fit: cover;
+  width: 350px;
+  height: 350px;
+}
+
+li {
+  list-style: none;
+}
+
+.grid-list {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 7rem;
+}
+
+table {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100%;
+  /*   border-collapse: collapse; */
+  /*   border: 1px solid red; */
+}
+
+caption {
+  font-size: 2em;
+  font-weight: bold;
+  text-align: left;
+  padding: 10px 0;
+}
+
+td,
+th {
+  /*   border: 1px solid #ddd; */
+  padding: 8px;
+}
+
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #fcd53e;
+  /* color: white; */
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tbody tr:hover {
+  background-color: #ddd;
+}
+
+td.merge {
+  text-align: center;
+  font-style: italic;
+}
+
+tfoot {
+  font-size: 0.8em;
+  font-style: italic;
+  text-align: center;
+  background-color: #c5c5c5;
+}
+
+h2 {
+  display: flex;
+  margin-bottom: 11px;
+  font-size: 4rem;
+}
+
+section.who-we-are {
+  margin: 30px;
+}
+
+p {
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+
+h1.title {
+  font-size: 4.8rem;
+}
