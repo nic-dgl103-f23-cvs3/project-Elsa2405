@@ -168,7 +168,7 @@ tfoot {
 h2 {
   display: flex;
   margin-bottom: 11px;
-  font-size: 4rem;
+  /* font-size: 4rem; */
 }
 
 section.who-we-are {
@@ -176,7 +176,7 @@ section.who-we-are {
 }
 
 p {
-  font-size: 2rem;
+  font-size: 1.4rem;
   margin-bottom: 30px;
 }
 
