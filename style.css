@@ -332,8 +332,12 @@ input:checked ~ .sub-menu {
 }
 
 .contact .flex-container h2 {
-  color: #333;
+  color: #ffffff;
   font-size: 3rem;
+}
+
+.contact label {
+  color: #eeeeee;
 }
 
 .contact .flex-container form {
@@ -367,6 +371,70 @@ input:checked ~ .sub-menu {
 
 .contact .flex-container button:hover {
   background-color: #2980b9;
+}
+
+/* footer */
+
+footer {
+  background-color: #eeeeee;
+  color: black;
+  padding: 2rem;
+}
+
+.footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-logo {
+  margin-top: 2rem;
+}
+
+footer ul {
+  padding-left: 0;
+}
+
+.footer-logo img {
+  width: 150px;
+}
+
+.footer-logo p {
+  margin: 5px 0;
+}
+.footer-navigation,
+.footer-solution,
+.footer-company {
+  margin-top: 20px;
+}
+
+.footer-navigation li,
+.footer-solution li,
+.footer-company li {
+  margin: 5px 0;
+  list-style: none;
+}
+
+.footer-navigation li:hover,
+.footer-solution li:hover,
+.footer-company li:hover {
+  color: #3498db;
+  cursor: pointer;
+}
+
+.about-us {
+  margin-top: 20px;
+  width: 100%;
+}
+.about-us span {
+  font-size: 24px;
+  line-height: 60px;
+  margin-right: 10px;
+}
+
+.about-us span:hover {
+  cursor: pointer;
+  color: #3498db;
 }
 
 /* Desktop */
