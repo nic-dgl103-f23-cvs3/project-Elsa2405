@@ -253,6 +253,49 @@ input:checked ~ .sub-menu {
   margin: 3rem 0;
 }
 
+/* testimonials mobile 1 */
+.testimonials-1 {
+  text-align: center;
+  margin: 2rem 2rem 0rem 2rem;
+}
+
+.testimonials-1 img {
+  width: 15rem;
+  height: 15rem;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.testimonials-1 h3 {
+  font-size: 2.8rem;
+  font-weight: 900;
+  margin: 0;
+  color: #505d68;
+}
+
+.testimonials-1 p {
+  color: #a1aeb7;
+  font-weight: 400;
+}
+
+.testimonials-1 .flex-item {
+  padding: 2.5rem;
+  border-bottom: 1px solid #f2f5f7;
+}
+
+.testimonials-1 h4 {
+  color: #505d68;
+  font-weight: 300;
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.testimonials-1 .job-title {
+  font-size: 1.4rem;
+  margin: 0.5rem;
+  font-weight: 300;
+}
+
 /* Desktop */
 @media only screen and (min-width: 1024px) {
 }
