@@ -1,0 +1,17 @@
+.about-hero-main-hero {
+  justify-content: center;
+  align-items: flex-start;
+  background-image: url(images/about-us-hero-cover.jpeg);
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  padding-right: 4rem;
+  padding-left: 4rem;
+  filter: opacity(100%);
+  text-align: left;
+  position: relative;
+  height: 80rem;
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
