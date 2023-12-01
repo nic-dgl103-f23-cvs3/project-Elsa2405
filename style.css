@@ -14,6 +14,8 @@ html {
 *:after {
   box-sizing: inherit;
   text-decoration: unset;
+  padding: 0;
+  margin: 0;
 }
 
 body {
@@ -165,11 +167,11 @@ body {
   color: white;
 }
 .main-hero h1 {
-  font-size: 2.8rem;
+  font-size: 4.8rem;
 }
 
 .main-hero p {
-  font-size: 1.4rem;
+  font-size: 3rem;
   margin-top: 3rem;
   width: 100%;
   line-height: 2.8rem;
@@ -178,7 +180,7 @@ body {
 .main-hero a {
   padding: 1.8rem 3rem;
   font-weight: 500;
-  font-size: 1.4rem;
+  font-size: 2.4rem;
   color: #ffffff;
   border-radius: 9rem;
   background-color: #421882;
@@ -312,8 +314,8 @@ body {
   padding: 10rem;
   margin-bottom: 5rem;
 }
-/* 
-.contact ::before {
+
+.contact::before {
   background-image: linear-gradient(
     rgba(246, 213, 93, 0.7) 7%,
     rgba(246, 213, 93, 0.7) 7%
@@ -325,7 +327,7 @@ body {
   bottom: 0;
   left: 0;
   pointer-events: none;
-} */
+}
 
 :where(.contact > *) {
   position: relative;
@@ -337,7 +339,7 @@ body {
 }
 
 .contact label {
-  color: #eeeeee;
+  color: #ffffff;
 }
 
 .contact .flex-container form {
@@ -381,11 +383,13 @@ footer {
   padding: 2rem;
 }
 
+footer .footer-logo-desktop {
+  display: none;
+}
+
 .footer-content {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
+  flex-direction: column;
 }
 .footer-logo {
   margin-top: 2rem;
@@ -538,5 +542,71 @@ footer ul {
     flex-direction: row;
     justify-content: space-around;
     padding-top: 6rem;
+  }
+
+  /* resource */
+  .resource {
+    /* background-color: #505d68; */
+  }
+  .resource .logo-organizers {
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 10%;
+  }
+
+  .resource .logo-organizer {
+    width: 33%;
+  }
+
+  /* testimonials */
+
+  .testimonials-1 .flex-container {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .testimonials-1 .flex-item {
+    width: 25%;
+  }
+
+  /* footer */
+
+  footer {
+    background-color: #161316;
+    color: #eeeeee;
+    padding-left: 100px;
+  }
+
+  footer .footer-logo-mobile {
+    display: none;
+  }
+
+  footer .footer-logo-desktop {
+    display: flex;
+  }
+
+  footer .footer-content {
+    flex-direction: row;
+    columns: 30px;
+  }
+
+  footer .logo {
+    width: 30%;
+  }
+
+  footer .footer-navigation {
+    width: 20%;
+  }
+
+  footer .footer-solution {
+    width: 20%;
+  }
+
+  footer .footer-company {
+    width: 15%;
+  }
+
+  footer .about-us {
+    width: 20%;
   }
 }
