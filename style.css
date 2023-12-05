@@ -9,6 +9,11 @@ html {
   font-family: "Ubuntu", sans-serif;
 }
 
+header.sticky.nav-scroll {
+  background-color: #333;
+  opacity: 80%;
+}
+
 *,
 *:before,
 *:after {
@@ -16,6 +21,7 @@ html {
   text-decoration: unset;
   padding: 0;
   margin: 0;
+  color: unset;
 }
 
 body {
@@ -165,21 +171,24 @@ body {
   filter: opacity(100%);
   text-align: left;
   position: relative;
-  height: 80rem;
+  height: 120rem;
   display: flex;
   flex-direction: column;
   color: white;
 }
 
-/* .main-hero::after {
-  background-image: linear-gradient(#000000 7%, #000000 7%);
+.main-hero::before {
+  background-image: linear-gradient(
+    rgba(6, 5, 0, 0.2) 7%,
+    rgba(6, 5, 0, 0.2) 7%
+  );
   position: absolute;
   content: "";
   top: 0;
   right: 0;
   bottom: 0;
   left: 0;
-} */
+}
 
 .main-hero h1 {
   font-size: 4.8rem;
@@ -260,6 +269,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
   margin: 5rem 8.5rem 10rem 8.5rem;
 }
 
@@ -276,10 +286,17 @@ body {
 .logo-organizers {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  padding: 2rem;
   row-gap: 2rem;
   width: 100%;
   margin: 3rem 0;
+}
+
+.resource {
+  background-image: linear-gradient(
+    rgba(255, 5, 0, 0.2) 7%,
+    rgba(255, 5, 0, 0.2) 7%
+  );
 }
 
 /* testimonials mobile 1 */
@@ -317,6 +334,7 @@ body {
   font-weight: 300;
   margin-top: 2rem;
   margin-bottom: 0.5rem;
+  font-weight: bold;
 }
 
 .testimonials-1 .job-title {
@@ -583,6 +601,13 @@ footer ul {
   }
 
   /* resource */
+
+  .resource {
+    background-image: linear-gradient(
+      rgba(255, 5, 0, 0.2) 7%,
+      rgba(255, 5, 0, 0.2) 7%
+    );
+  }
 
   .resource .logo-organizers {
     flex-direction: row;

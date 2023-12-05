@@ -49,7 +49,7 @@
             </li>
             <li class="main-menu-item"><a href="#">Pricing</a></li>
             <li class="main-menu-item">
-              <a href="/aboutus.html"> About us </a>
+              <a href="aboutus.html" class="active"> About us </a>
             </li>
             <li class="main-menu-item"><a href="#">Blog</a></li>
             <li class="main-menu-item"><a href="#">Login</a></li>
@@ -306,7 +306,7 @@
           <ul>
             <li>About</li>
             <li>Resources</li>
-            <li>Contact Us</li>
+            <li><a href="contactus.html">Contact Us</a></li>
             <li>Careers</li>
             <li>Partner With Us</li>
           </ul>
@@ -323,4 +323,10 @@
       </div>
     </footer>
   </body>
+  <script>
+    window.addEventListener("scroll", function () {
+      var header = document.querySelector(".sticky");
+      header.classList.toggle("nav-scroll", window.scrollY > 0);
+    });
+  </script>
 </html>
