@@ -1,0 +1,34 @@
+.main-contact {
+  position: relative;
+}
+.main-contact .content {
+  position: absolute;
+  top: 300px;
+  margin: 3rem;
+  border-radius: 9px;
+
+  background-color: whitesmoke;
+  padding: 2rem;
+}
+
+.main-contact h1 {
+  margin: 3rem 0;
+  text-align: center;
+}
+.main-contact .script {
+  font-size: 1.4rem;
+}
+.main-contact .mail {
+  margin-bottom: 3rem;
+}
+.script > * {
+  padding-top: 20px;
+}
+
+.script .logo {
+  margin-right: 2rem;
+}
+
+.location {
+  display: flex;
+}

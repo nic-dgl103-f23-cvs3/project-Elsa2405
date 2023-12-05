@@ -380,7 +380,8 @@ body {
 }
 
 .contact .flex-container input,
-.contact .flex-container textarea {
+.contact .flex-container textarea,
+.contact .flex-container select {
   width: 100%;
   padding: 1rem;
   margin-bottom: 1.5rem;
