@@ -511,6 +511,11 @@ footer ul {
     width: 100%;
     font-weight: 700;
   }
+
+  .main-menu-item a:hover {
+    color: #fcd53e;
+    cursor: pointer;
+  }
   .main-menu {
     display: flex;
     gap: 25px;
