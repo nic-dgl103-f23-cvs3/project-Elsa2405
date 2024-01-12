@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Document</title>
+
+    <style>
+      html {
+        font-size: 62.5%;
+        box-sizing: border-box;
+        text-decoration: unset;
+        list-style-type: none;
+        font-family: "Open Sans", sans-serif;
+        font-family: "Poppins", sans-serif;
+        font-family: "Roboto", sans-serif;
+        font-family: "Ubuntu", sans-serif;
+      }
+      body {
+        background-color: rgb(118, 199, 206);
+      }
+      main {
+        margin: 0 auto;
+        width: 500px;
+        background-color: #ffffff;
+        border-radius: 5px;
+        margin: 20px auto;
+        box-shadow: 1px 1px 2px #777;
+      }
+
+      *,
+      *:before,
+      *:after {
+        box-sizing: inherit;
+        text-decoration: unset;
+        padding: 0;
+        margin: 0;
+        color: unset;
+      }
+      .grid-member img {
+        width: 100px;
+        height: 100px;
+        object-fit: cover;
+        border-radius: 50%;
+        display: flex;
+        margin-left: 50px;
+      }
+
+      img {
+        align-self: center;
+      }
+
+      li {
+        display: flex;
+        padding: 5px;
+      }
+      .content {
+        align-items: center;
+        margin: 40px 20px;
+      }
+
+      p {
+        color: grey;
+      }
+
+      li:not(:last-child) {
+        border-bottom: 1px solid #eee;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <section class="who-we-are">
+        <div class="grid-members">
+          <ul class="grid-list">
+            <li class="grid-member">
+              <img
+                src="https://images.unsplash.com/photo-1599566150163-29194dcaad36"
+                alt="team member nicole"
+              />
+              <div class="content">
+                <h4>Jay White</h4>
+                <p>6765 Shady Ln Dr</p>
+              </div>
+            </li>
+            <li class="grid-member">
+              <img
+                src="https://images.unsplash.com/photo-1580489944761-15a19d654956"
+                alt="team member brianne"
+              />
+              <div class="content">
+                <h4>Ellie Medina</h4>
+                <p>2420 Paddock Way</p>
+              </div>
+            </li>
+            <li class="grid-member">
+              <img
+                src="https://images.unsplash.com/photo-1628890923662-2cb23c2e0cfe"
+                alt="team member katie"
+              />
+              <div class="content">
+                <h4>Claire Sullivan</h4>
+                <p>6727 Airplane Ave</p>
+              </div>
+            </li>
+
+            <li class="grid-member">
+              <img
+                src="https://images.unsplash.com/photo-1628157588553-5eeea00af15c"
+                alt="team member melissa"
+              />
+              <div class="content">
+                <h4>Dean Austin</h4>
+                <p>6685 Blossom Hill Rd</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

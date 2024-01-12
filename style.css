@@ -349,7 +349,7 @@ body {
   background-image: url(https://www.indinero.com/wp-content/uploads/2023/02/jud-mackrill-Of_m3hMsoAA-unsplash-1-min.jpg);
   background-size: cover;
   background-position: center center;
-  width: 80%;
+  width: 400px;
   filter: opacity(100%);
   text-align: left;
   position: relative;
@@ -357,7 +357,7 @@ body {
   align-self: stretch !important;
   width: 100%;
   padding: 10rem;
-  margin-bottom: 5rem;
+  margin-top: 40px;
 }
 
 .contact::before {
@@ -389,6 +389,17 @@ body {
 .contact .flex-container form {
   margin-top: 2rem;
 }
+fieldset {
+  display: flex;
+}
+.wrapper-button {
+  display: flex;
+  justify-content: space-between;
+}
+
+input[type="reset"] {
+  margin-right: 20%;
+}
 
 .contact .flex-container {
   width: 90%;
@@ -406,6 +417,11 @@ body {
   border: 1px solid #ccc;
   border-radius: 5px;
   box-sizing: border-box;
+}
+
+input#ft,
+input#pt {
+  width: auto;
 }
 
 .contact .flex-container button {
